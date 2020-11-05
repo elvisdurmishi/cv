@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+
+h1{
+    color: #66BFBF;
+    font-size: 5.625rem;
+    font-family: 'Sacramento', cursive;
+    margin: 50px auto 0 auto;
+}
+
+h2{
+    color: #40514e;
+    font-size: 2.5rem; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    line-height: 2;
+}
+
+h3{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2;
+}
+
+p{
+    line-height: 2;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 10px;
+    width: 5%;
+    margin: 20px auto;
+    color: #11999e;
+}
+
+a{
+    text-decoration: none;
+    color: #40514e;
+}
+
+a::after{
+    color: #40514e;
+}
+
+.top-container{
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container{
+    background-color: #30e3ca;
+}
+
+.bottom-container{
+    background-color: #11999e;
+}
+
+.under-title{
+    color: #66BFBF;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.profile-picture{
+    margin-top: 20px;
+    border-radius: 100%;
+    width: 20%;
+}
+
+.code-icon{
+    border-radius: 100%;
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.video-icon{
+    border-radius: 100%;
+    width: 25%;
+    background: white;
+    float: right;
+    margin-left: 30px;
+}
+
+.mail-icon{
+    border-radius: 100%;
+    width: 25%;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 0 auto 100px auto;
+    text-align: left;
+}
+
+.contact-me{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.btn{
+    background-color: #40514e;
+    border-radius: 25px;
+    color: #11999e;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 200px;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: #30e3ca;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.footer-copyright{
+    color: white;
+    margin-bottom: 0;
+    padding-bottom: 40px;
+}
+
+
