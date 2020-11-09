@@ -56,6 +56,7 @@ a::after{
     background-color: #e4f9f5;
     position: relative;
     padding-top: 100px;
+    height: calc(100vh - 100px);
 }
 
 .middle-container{
@@ -85,6 +86,13 @@ a::after{
     position: absolute;
     left: 300px;
     bottom: 300px;
+}
+
+.mountain{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .profile-picture{
@@ -157,4 +165,62 @@ a::after{
 .footer-copyright{
     color: white;
     margin-top: 50px;
+}
+
+@media only screen and (max-width: 600px){
+h1{
+    font-size: 5rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+hr{
+    width: 20%;
+}
+
+.profile{
+    margin: 0 auto 100px auto;
+    width: 80%;
+}
+
+.profile-picture{
+    width: 50%;
+}
+
+.skill-row{
+    width: 80%;
+}
+
+.contact-me{
+    width: 80%;
+}
+
+.top-container{
+    height: 60vh;
+}
+
+.mountain{
+    position: absolute;
+    width: 300px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+    
+.top-cloud{
+    right: 30px;
+    width: 100px;
+}
+    
+.bottom-cloud{
+    width: 100px;
+    left: 30px;
+    bottom: 150px;
+}
+
+.code-icon, .video-icon, .mail-icon{
+    width: 40%;
+}
 }
